@@ -1,0 +1,24 @@
+总结：
+Ctrl+alt+insert--->直接进入虚拟机
+常见的缺陷管理工具：
+	禅道
+	redmine
+	mantis
+	bugzilla
+	Jir
+	testlink
+
+1.QC介绍：
+	目前属于HP，最新版本：ALM
+2.通过学习QC的目标：1,2,3
+3.QC安装：
+	前提：
+		需要Windows2003或者xp
+		浏览器IE7以下，B/S架构，操作简单
+		SQL SERVER软件
+	安装：
+		SQL SERVER安装--->升级SQL SERVER的产品版本：RTM-->SP4
+		QC：后台管理员：admin 123456--->登录的是后台--->地址：http://localhost:8080/sabin--->建立项目（先建域）--->添加用户（添加的项目管理员）
+		QC：前台:地址：http://localhost:8080/qcbin--->选择Qulity Center进入前台登录页（只有在项目下的用户才可登录前台）
+			前台设置：1.修改用户信息：Tools-->Customize,2.添加用户，设置用户所属组3.自定义组，自定义组可以进行修改
+作业：你把剩下的组的状态添加进来，并进行验证（思考）

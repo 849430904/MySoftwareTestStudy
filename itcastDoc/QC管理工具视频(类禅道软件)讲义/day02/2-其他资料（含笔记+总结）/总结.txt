@@ -1,0 +1,28 @@
+QC前台：
+	QC前台设置选项：Tools-->Customize-->设置用户、组、模板、下拉列表
+	缺陷状态变化过程：修改组中Defects--->Modify Defect-->Status
+		
+	Requirment:需求模块，可以新建需求，关联测试用例、缺陷
+		需求关联用例：No run, Failed,passed,N/A,Not completed,not covered
+
+	用例模块：添加用例，每一步都有一个预期结果
+		可以用例关联需求、关联缺陷
+	用例集模块：
+		可以执行某一条用例：执行一条用例时，如果中间步骤出现bug,此时停止执行，直接提交bug
+		可以执行多条测试用例：执行多条用例时如果某条用例的某一步出现bug，这个时候直接提交该用例bug，然后继续执行下一条用例
+	缺陷模块：
+		提交缺陷
+			summary:标题
+			优先级
+			严重程度
+			状态：
+				new,open,fixed,reopen,close,abandon,postpone,rejectd
+				在QC中根据缺陷状态制定缺陷生命周期
+	从excel表中导出到QC中
+		注意：
+			导出时不包括标题行，只选择数据即可
+			可以导入需求、用例、缺陷
+			表中数据和QC数据列要一一对应
+				出错时可以修改excel，还可以修改QC
+
+		
